@@ -19,6 +19,5 @@ before.innerHTML = JSON.stringify(companiesData, null, 2);
 //TODO: Create a new array with just elements of a certain state.
 //TODO: Create buttons for each record.
 //functions are here
-const manipulatedData = [];
-
+const manipulatedData = [companiesData[0]];
 after.innerHTML = JSON.stringify(manipulatedData, null, 2);
